@@ -1,0 +1,3489 @@
+fileFormatVersion: 2
+guid: 2566bdc87d863b34f9eea17e193ed4b3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: towers-hd_0
+  - first:
+      213: 21300002
+    second: towers-hd_1
+  - first:
+      213: 21300004
+    second: towers-hd_2
+  - first:
+      213: 21300006
+    second: towers-hd_3
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: towers-hd_0
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 1086
+        width: 115
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: towers-hd_1
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 1094
+        width: 113
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: towers-hd_2
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 943
+        width: 99
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: towers-hd_3
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 306
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: towers-hd_4
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 918
+        width: 104
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132f123013d81894f820118170626d3f
+      internalID: 461398832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: towers-hd_5
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 831
+        width: 96
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7673bf1c6d584c4fbb6c374759935f8
+      internalID: -1898629170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: towers-hd_6
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 345
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d8c2b09cfd4ff44b2e3e8b551e77eb
+      internalID: -124542688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: towers-hd_7
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 925
+        width: 97
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b52b9e2f7dd1934a884d4ba52977440
+      internalID: -285585165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: towers-hd_8
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 315
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d205b4a810e52d347b366d1bbcbc2f43
+      internalID: -1690685608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: towers-hd_10
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 373
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2239dea92fd8d944984892615e0fbd9
+      internalID: -1170578545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: towers-hd_11
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 479
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85092c35145a0046acb2948d45e713d
+      internalID: 561378927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: towers-hd_12
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 463
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49b8dbebfdd82c4b9c2ada9586e47e4
+      internalID: -1884800456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: towers-hd_13
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 499
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e447f62e044bd45499133fce8f2fec98
+      internalID: 506710787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: towers-hd_9
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 426
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3737b18be14b1458ce6ad7cb2faba4
+      internalID: 580475728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunMountLv2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1101
+        width: 113
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46567661f239fe24caadf1b8ba61861a
+      internalID: 410340764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunBarrelLv1_01
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 1096
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b162a613dc10954ca619e5f692c66b2
+      internalID: 928838647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombLv1
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 828
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac11d77a680bd8b4eae62389a898d0e4
+      internalID: -590434235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner2_Idle
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 465
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416cc6dd51732de4e904fc6437bc6721
+      internalID: 1422762260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomb3Lv1
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 445
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7d77e6c770d2740af6dd7908721020
+      internalID: 1744429913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner1_Idle
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 354
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd8551adb5247442a3a2dd62577e69d
+      internalID: 384581259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: towers-hd_20
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 825
+        width: 100
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf201a51e59b13c418c0a4755f631c4f
+      internalID: 1766875913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner1_Attack1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 360
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8f948c8d6265a48a0ae3ce77dfcd19
+      internalID: -496169336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner1_Attack2.3
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 342
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086f2fcfd9192dc48b4117aeeab96b73
+      internalID: 412787299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner2_Attack1
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 494
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fa5e4769550174b9bb147ac68620be
+      internalID: -269958551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner2_Attack4
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 488
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a0f1a7882957f4790da400c8e8d13d
+      internalID: -1331899870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombardSmoke1
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1850
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f83750de22ac4941a7b54a47c93365c
+      internalID: 943766425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombardSmoke2
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1904
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc76ddd845736614dbaf746d5c2340cd
+      internalID: -430663023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombardSmoke3
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1959
+        width: 60
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9cc6d1d1a9fba1488938a471738d626
+      internalID: -685585882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunBarrelLv1_02
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1982
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1945d058a7fe34994385388fc0fd26
+      internalID: 2141487675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombardSmoke4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1272
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289f4c07c37995745b062d1468adc8b0
+      internalID: -49169639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombardSmoke5
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1292
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bb3a1a8ed24944a8b8d645e391ea25
+      internalID: 918894685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombardSmoke6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1328
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e9e77c87a91944b991e1e8eca87b84
+      internalID: 743620355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombardSmoke7
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1348
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e629b950bd0fcfd43bfdbac0c80bbdee
+      internalID: -943020386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombardSmoke8
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1407
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed1b0dba4c04d549af82e0774076dc6
+      internalID: 1147319431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner1_Attack2.1
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 797
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e43ffbdc66fb6449bf84025e30852c
+      internalID: -1295414192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner1_Attack 3
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 310
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a52da78056b4b74d94dd405764d4035
+      internalID: -932361845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner1_Attack 4
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 335
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e104fcaa00c64634597256a2053fd903
+      internalID: -2134511537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner1_Attack 5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 335
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13024e53b86c9c248ab47b9ab84a3367
+      internalID: -451834411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner2_Attack3
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 487
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30634e75c6244346b7f7eaf2e35fa99
+      internalID: 1882289840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner2_Attack2
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 461
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce8aff109f66134e909fac316773088
+      internalID: -1366496563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarrackTowerLv1
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 814
+        width: 83
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e77e23483ee2440980e8dbd490310d
+      internalID: -230411372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarrackTower_Door
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 239
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958acc6ab9ac77b4abc55d8fc5666b83
+      internalID: -438450480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv1_Idle
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 441
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8753a894ea44c24980de6e99ef8ba5e
+      internalID: -312683602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv1_Run1
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 332
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ce04cdc5a61f148bfdd397d927bace
+      internalID: 1321518686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv1_Run2
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 741
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89b61fa0711988478378ce073a1911f
+      internalID: 283033182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv1_Run3
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 693
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff2eb60771ee5d42807840861d180c8
+      internalID: -782835160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv1_Attack1
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 416
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1a72ff4e6ad134cb4edc1e090ff65a
+      internalID: -841310264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv1_Attack2
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 367
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e999aad5f59b1304a85b87e2c1914c9e
+      internalID: -54327073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruin_Archer
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 566
+        width: 67
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1846dc01aa2507d4d9aa95b2cf72672e
+      internalID: -1184026670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruin_Barrack
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 707
+        width: 67
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4df92600f6fb734facb6b3d179438cd
+      internalID: 872317456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv1_Attack3
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 601
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb746109ef4c8d546b418d20af4dbe49
+      internalID: -340012923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruin_Mage
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 916
+        width: 103
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a3d21e3ede97646873a88990035750
+      internalID: 1695906579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ruin_Bombard
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 791
+        width: 75
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c20a91ccfcd6164989d5b4d277bb4c8
+      internalID: -475212749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv1_Dead2
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 390
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c716bdf03586440a5619d108b12a22
+      internalID: -1125520361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv1_Dead1
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 427
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ce5cdcf7698804d860c1793244ed19
+      internalID: -197547947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv1_Dead3
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 404
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65daa53392828ac429af3e1b41b6cc3f
+      internalID: -1400997423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pointer
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 593
+        width: 93
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299e339a6a16a1545aaa300ca553c774
+      internalID: 864405375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: towers-hd_15
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 1328
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef06524e4a94764bac3308358dc8ae4
+      internalID: -1386382855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv1_Run
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 829
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ebcd1a41eba9c438eae35d7b6374ca
+      internalID: 2141689968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ww2_Idle
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 532
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f7f9a3afcb116419c13fa8509c7700
+      internalID: 362724695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ww2_Run1
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 576
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a28e2d04530de4aafc563b9973d623
+      internalID: -1880780125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ww2_Run2
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 652
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60c6e5d55b040f48b4054d4adaf8b0c
+      internalID: -8241651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ww2_Run3
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 614
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdb0bc14a444914ca3adaf876158388
+      internalID: 1550090442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ww2_Run4
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 438
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e797251b0ba3249855fd27d025cf04
+      internalID: 2133272303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ww2_Attack1
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 893
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e15c7f114357e4ba7b7c5bca528495
+      internalID: 1709876338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ww2_Attack2
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1350
+        width: 55
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ece87e07738954a9e9d664247a3bde
+      internalID: -1635247896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ww2_Attack3
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 454
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f1e26f9601a9049b278f2d7b21f994
+      internalID: 1111440575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ww2_Dead1
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 332
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90790a3a79e82594cb1eef4cc6d77817
+      internalID: -397775390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ww2_Dead2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 432
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93836582d9e31c9489c269889d8de9f3
+      internalID: -1280341287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ww2_Dead3
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 464
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdc8fb4624746d43809d1be0f71a63a
+      internalID: -738776057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ww2_Dead4
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 443
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ddb7fbf7344ac47b9016c0272ca472
+      internalID: -91888946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_2
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 706
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e85390b026ddad408569c732b3ad71a
+      internalID: -1156804008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_1
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 729
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f0f3d67d6b7a148bbbc1c15beac5f1
+      internalID: 512350492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_3
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 415
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c096b74bf19c0604b98ac2014212d978
+      internalID: -43533912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke_01
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 466
+        width: 71
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734b5907b1e5e01419191d2f2fa83403
+      internalID: 1067351295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke_02
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 693
+        width: 74
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce04b6d7d5345b4e934dc29c9d9246f
+      internalID: 176848301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke_03
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 794
+        width: 76
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b68419de6df1b48a65f485bfb5869d
+      internalID: 2081841126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_01
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 411
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92c5de2b36698b4ea74ecffea5cdb26
+      internalID: -2106442176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_02
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 427
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f720af3d8adf3a94b959fac3d40b991a
+      internalID: -1489163783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_03
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 427
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59be6869f7b6c6b42ab2a0abd79ff0cf
+      internalID: -1393663527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_04
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 517
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a96d5d526d55849a74d548fb5b9983
+      internalID: -1902706678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_05
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 517
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57386ffd11c03d49a40d67edc8f3ece
+      internalID: 1836566025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode_01
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1707
+        width: 65
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614b3456a5e2d424cb1f63f8d836e8ff
+      internalID: 127145381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode_02
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 705
+        width: 88
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455df08deb6a9134a89118a09dd8a751
+      internalID: 1528058369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode_03
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 588
+        width: 95
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e54489523c2c348987f74cd44565ff
+      internalID: -1373529980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode_04
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 634
+        width: 96
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80f6219e34133249addcf65a07741f4
+      internalID: 1465935248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode_05
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 666
+        width: 102
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da610b23fa5306449a3944e916f6d684
+      internalID: 1422979514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode_06
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 874
+        width: 104
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefba10c59e953845928a95610ca2d1e
+      internalID: -1013317970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode_07
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 934
+        width: 106
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d74e6cbeef27ab44863c8c75da6ea76
+      internalID: -599538255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explode_08
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1185
+        width: 66
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67e4e63d6379114fb798c21b338c1cf
+      internalID: -798987845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scorch_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 903
+        width: 113
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70522a512a4c7a14c8bcb1fa18c6f1e1
+      internalID: -1521288172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scorch_2
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1584
+        width: 132
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70542c40cfe3055469651bd05e09f422
+      internalID: -2033615252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scorch_3
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 1690
+        width: 132
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397454bf5f971b642819b0f192b0fb08
+      internalID: 1846732177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scorch_4
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1789
+        width: 132
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3a44403b0bb78429e396bfe41400ed
+      internalID: -838395301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scorch_5
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1788
+        width: 132
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1595fb763b59c1e4b9d9ca067144c6cb
+      internalID: -963304194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scorch_6
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1544
+        width: 132
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ef3424c873cf34499d2507ef763250
+      internalID: -1260590807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scorch_7
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1688
+        width: 132
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bf4ab9cc722424880aaf5876c3207c
+      internalID: -1756756902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scorch_8
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 1788
+        width: 132
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844e9f59697c82b49a12254be1d219dd
+      internalID: -896375843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scorch_9
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1547
+        width: 126
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac35acd7e0bc1bd46af0673ed7a31322
+      internalID: -1626487217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scorch_10
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 1722
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b7c419dbfb4e4459425a7aec1c7276
+      internalID: 2115819052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scorch_11
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1671
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ff4c9830eaf3946b528897f9854bd3
+      internalID: 563972400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageTowerLv2_01
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1054
+        width: 103
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954813ea21ce36f4c8690599de2bdeab
+      internalID: 1071835542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageTowerLv2_02
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 1126
+        width: 103
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4de7673d5fdcf4f9192921a1850470
+      internalID: -1254333838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageTowerLv2_03
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 993
+        width: 103
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf574818150f2a8418c6e30fd36764e4
+      internalID: 1801702565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageTowerLv2_04
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 1082
+        width: 103
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67faf81e2ae7fca45a1bf2a76f420858
+      internalID: -1689812733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageTowerLv2_05
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1013
+        width: 103
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c687d73fb709040a84c0cd4ae8abff
+      internalID: -1502871237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageTowerLv1_05
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 1007
+        width: 103
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397342dc384240148ac24679dd9f8164
+      internalID: -1252408575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageTowerLv1_04
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 977
+        width: 103
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48581be3427f459468e06f5a00c4be03
+      internalID: -95251746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageTowerLv1_01
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 980
+        width: 103
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ad0277b4435494184f1b38109241da
+      internalID: -1570222445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageTowerLv1_02
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1051
+        width: 103
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a484dc1242afea44493da0a3222dfc83
+      internalID: -1763518768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageTowerLv1_03
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 970
+        width: 103
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9c4cbac25244048a109e3a87b4b44b
+      internalID: 328113728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageTowerLv3_05
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 1128
+        width: 103
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8eeaa9c7f149b4fb9c72af697588e7
+      internalID: -197660024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageTowerLv3_04
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1044
+        width: 103
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd62316a42f1a9b4298c838c13bde765
+      internalID: 892238708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageTowerLv3_03
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1087
+        width: 103
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25edd3b8b1bec43448377a021cdbc13e
+      internalID: -922888092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageTowerLv3_01
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 1156
+        width: 103
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d566779dfad1ee84da5664765e78162e
+      internalID: 2132678386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageTowerLv3_02
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1038
+        width: 103
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c7726e2f315f045b2cc9665f9686f7
+      internalID: -1167408217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunMountLv1
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 979
+        width: 113
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014242a19f236044a8035bcc79e2e0e8
+      internalID: -491597948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunBarrelLv1_03
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 998
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b3a9375f83b70459781107f0de4e98
+      internalID: -1797675844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunMountLv3
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1129
+        width: 113
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c735e3cc2b8e9f4e9d4cec94bbc89c4
+      internalID: -561888490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombLv2
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 843
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6c04952a6e4ba4a8d9bee1dcce884c
+      internalID: 1089476333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: towers-hd_14
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 787
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8655825d90e665c429782498c5aadc5c
+      internalID: -256388081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BombLv3
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 753
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee7447b37860be4586b3f1f88cd2a82
+      internalID: -2132514239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomb3Lv3
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 574
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3988e122e319cd04da536eda01483d25
+      internalID: 1759933736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomb3Lv2
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 581
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431fa561c8872ac4b88a24ebbda9db29
+      internalID: -350143236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gunner1_Attack2.2
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 317
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e98e6d72efb424085e84904ff02330
+      internalID: -1522615825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarrackTowerLv2
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 963
+        width: 83
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f330526c4bc53a34d951175679520125
+      internalID: 172469785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv2_Dead1
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 447
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2145197ed104048499302d74f348c61f
+      internalID: -250397867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv2_Attack2
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 344
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c07f3e8dcca57439e7889f2d626588
+      internalID: 1276525739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv2_Attack1
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 451
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad504c9b2c14c2146a63d7cf4f7bc562
+      internalID: -1766370742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv3_Attack3
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 523
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716bba73aaf6b45438b2ec17d9b09073
+      internalID: -1596585429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv2_Dead3
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 560
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbf74dc9774f3347b27c57371256b57
+      internalID: 1816830550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv2_Dead2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 438
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee347d6bf883f8489078446878567a7
+      internalID: 1451019190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv2_Run1
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 411
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8fe44b09a11694a93cd0e90b3adb92
+      internalID: -177811764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv2_Run
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 764
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b861dbaa18802d54c8a615f9254114ab
+      internalID: -2107401824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv2_Run2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 861
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6986a44b44c8a2846b18cdf94456ed21
+      internalID: -813943792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv2_Run3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 797
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c4d1d39c8aabc4eb2cb2270930cc3e
+      internalID: -1974542438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv2_Idle
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 719
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be6a314ccb8b8440aa04feaf1b6efa9
+      internalID: 1131399212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BarrackTowerLv3
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 904
+        width: 97
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b1f31f03e63934f86c3c331c3bc2a1
+      internalID: 1847051267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv3_Run
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 546
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5612a191c2b5964d860e86b0db90de6
+      internalID: 1481956750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv3_Run3
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 486
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e5db0d5e1ad3945a1df7c657f1b1fb
+      internalID: 686080754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv3_Run2
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 525
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de4aa64e89e3004baffc24518ebba92
+      internalID: 1130313347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv3_Run1
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 405
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e3a5e5a5f1d4a4b9a0b4ed8c3d31d9
+      internalID: 1118600363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv3_Attack1
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 363
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf16794840d806419694ae330c7f88b
+      internalID: -242750520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv3_Run5
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 418
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e0beecd2986fb43855772230ff36cb
+      internalID: -592921054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv3_Dead1
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 443
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734cda99c47b8b94bb608705cfed2a4a
+      internalID: -1963537380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv3_Attack2
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 316
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c295778f1f3d44692148d2356ea761
+      internalID: 873390361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv3_Dead3
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 425
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79aae527f6be3e46be4a0affe9727cf
+      internalID: -497195302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv3_Dead2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 439
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8658445073968c4d9fa959b3c50255c
+      internalID: -666657727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv3_Idle
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 439
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec777ba14b7a5642859bfd335ea444a
+      internalID: 1508371659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MilitiaLv2_Attack3
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 366
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5988cf37a5c6108489c5a82500d1660e
+      internalID: 57677163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6d4358d6873e6ce4faf2e012df113c3a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BarrackTowerLv1: -230411372
+      BarrackTowerLv2: 172469785
+      BarrackTowerLv3: 1847051267
+      BarrackTower_Door: -438450480
+      Bomb3Lv1: 1744429913
+      Bomb3Lv2: -350143236
+      Bomb3Lv3: -276998415
+      BombLv1: -590434235
+      BombLv2: 1089476333
+      BombLv3: -2132514239
+      BombardSmoke1: 943766425
+      BombardSmoke2: -430663023
+      BombardSmoke3: -685585882
+      BombardSmoke4: -49169639
+      BombardSmoke5: 918894685
+      BombardSmoke6: 743620355
+      BombardSmoke7: -943020386
+      BombardSmoke8: 1147319431
+      Explode_01: 127145381
+      Explode_02: 1528058369
+      Explode_03: -1373529980
+      Explode_04: 1465935248
+      Explode_05: 1422979514
+      Explode_06: -1013317970
+      Explode_07: -599538255
+      Explode_08: -798987845
+      Explode_1: 288966492
+      Explode_2: 1570896641
+      Explode_3: 123304824
+      Explode_4: -56524236
+      Fire_01: -2106442176
+      Fire_02: -1489163783
+      Fire_03: -1393663527
+      Fire_04: -1902706678
+      Fire_05: 1836566025
+      Fireball_1: 512350492
+      Fireball_2: -1156804008
+      Fireball_3: -43533912
+      GunBarrelLv1_01: 928838647
+      GunBarrelLv1_02: 2141487675
+      GunBarrelLv1_03: -1797675844
+      GunMountLv1: -491597948
+      GunMountLv2: 410340764
+      GunMountLv3: -561888490
+      Gunner1_Attack 3: -932361845
+      Gunner1_Attack 4: -2134511537
+      Gunner1_Attack 5: -451834411
+      Gunner1_Attack1: -496169336
+      Gunner1_Attack2.1: -1295414192
+      Gunner1_Attack2.2: -1522615825
+      Gunner1_Attack2.3: 412787299
+      Gunner1_Idle: 384581259
+      Gunner2_Attack1: -269958551
+      Gunner2_Attack2: -1366496563
+      Gunner2_Attack3: 1882289840
+      Gunner2_Attack4: -1331899870
+      Gunner2_Idle: 1422762260
+      MageTowerLv1_01: -1570222445
+      MageTowerLv1_02: -1763518768
+      MageTowerLv1_03: 328113728
+      MageTowerLv1_04: -95251746
+      MageTowerLv1_05: -1252408575
+      MageTowerLv2_01: 1071835542
+      MageTowerLv2_02: -1254333838
+      MageTowerLv2_03: 1801702565
+      MageTowerLv2_04: -1689812733
+      MageTowerLv2_05: -1502871237
+      MageTowerLv3_01: 2132678386
+      MageTowerLv3_02: -1167408217
+      MageTowerLv3_03: -922888092
+      MageTowerLv3_04: 892238708
+      MageTowerLv3_05: -197660024
+      MilitiaLv1_Attack1: -841310264
+      MilitiaLv1_Attack2: -54327073
+      MilitiaLv1_Attack3: -340012923
+      MilitiaLv1_Dead1: -197547947
+      MilitiaLv1_Dead2: -1125520361
+      MilitiaLv1_Dead3: -1400997423
+      MilitiaLv1_Idle: -312683602
+      MilitiaLv1_Run: 2141689968
+      MilitiaLv1_Run1: 1321518686
+      MilitiaLv1_Run2: 283033182
+      MilitiaLv1_Run3: -782835160
+      MilitiaLv2_Attack1: -1766370742
+      MilitiaLv2_Attack2: 1276525739
+      MilitiaLv2_Attack3: 57677163
+      MilitiaLv2_Dead1: -250397867
+      MilitiaLv2_Dead2: 1451019190
+      MilitiaLv2_Dead3: 1816830550
+      MilitiaLv2_Idle: 1131399212
+      MilitiaLv2_Run: -2107401824
+      MilitiaLv2_Run1: -177811764
+      MilitiaLv2_Run2: -813943792
+      MilitiaLv2_Run3: -1974542438
+      MilitiaLv3_Attack1: -242750520
+      MilitiaLv3_Attack2: 873390361
+      MilitiaLv3_Attack3: -1596585429
+      MilitiaLv3_Dead1: -1963537380
+      MilitiaLv3_Dead2: -666657727
+      MilitiaLv3_Dead3: -497195302
+      MilitiaLv3_Idle: 1508371659
+      MilitiaLv3_Run: 1481956750
+      MilitiaLv3_Run1: 1118600363
+      MilitiaLv3_Run2: 1130313347
+      MilitiaLv3_Run3: 686080754
+      MilitiaLv3_Run5: -592921054
+      Pointer: 864405375
+      Ruin_Archer: -1184026670
+      Ruin_Barrack: 872317456
+      Ruin_Bombard: -475212749
+      Ruin_Mage: 1695906579
+      Scorch_1: -1521288172
+      Scorch_10: 2115819052
+      Scorch_11: 563972400
+      Scorch_2: -2033615252
+      Scorch_3: 1846732177
+      Scorch_4: -838395301
+      Scorch_5: -963304194
+      Scorch_6: -1260590807
+      Scorch_7: -1756756902
+      Scorch_8: -896375843
+      Scorch_9: -1626487217
+      Smoke_01: 1067351295
+      Smoke_02: 176848301
+      Smoke_03: 2081841126
+      Warrior_Idle: 1763556155
+      Warrior_Run1: 460338284
+      Ww2_Attack1: 1709876338
+      Ww2_Attack2: -1635247896
+      Ww2_Attack3: 1111440575
+      Ww2_Dead1: -397775390
+      Ww2_Dead2: -1280341287
+      Ww2_Dead3: -738776057
+      Ww2_Dead4: -91888946
+      Ww2_Idle: 362724695
+      Ww2_Run1: -1880780125
+      Ww2_Run2: -8241651
+      Ww2_Run3: 1550090442
+      Ww2_Run4: 2133272303
+      Ww_Run1: 502842079
+      Ww_Run2: -451806635
+      Ww_Run3: 742262721
+      Ww_Run4: -705327532
+      Ww_Run5: -7201106
+      towers-hd_0: 21300000
+      towers-hd_1: 21300002
+      towers-hd_10: -1170578545
+      towers-hd_11: 561378927
+      towers-hd_12: -1884800456
+      towers-hd_13: 506710787
+      towers-hd_14: -256388081
+      towers-hd_15: -1386382855
+      towers-hd_2: 21300004
+      towers-hd_20: 1766875913
+      towers-hd_3: 21300006
+      towers-hd_4: 461398832
+      towers-hd_5: -1898629170
+      towers-hd_6: -124542688
+      towers-hd_7: -285585165
+      towers-hd_8: -1690685608
+      towers-hd_9: 580475728
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

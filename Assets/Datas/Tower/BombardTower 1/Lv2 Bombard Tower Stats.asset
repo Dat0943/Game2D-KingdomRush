@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25e2fc5cc9a52f640b84ce50edd94a94, type: 3}
+  m_Name: Lv2 Bombard Tower Stats
+  m_EditorClassIdentifier: 
+  nameTower: DWARVEN ARTILLERY
+  level: 2
+  buildCost: 220
+  upgradeBuildCost: 320
+  minPhysicalDamage: 20
+  maxPhysicalDamage: 40
+  minMagicalDamage: 0
+  maxMagicalDamage: 0
+  attackSpeed: 3
+  descriptionAttackSpeed: VERY SLOW
+  rangeOfLength: 5.5
+  rangeOfHeight: 4.5
+  descriptionRange: AVERAGE
+  isPhysical: 1
+  gunMountUpgradeSprite: {fileID: 410340764, guid: 2566bdc87d863b34f9eea17e193ed4b3, type: 3}
+  bomb3UpgradeSprite: {fileID: -350143236, guid: 2566bdc87d863b34f9eea17e193ed4b3, type: 3}
+  gunner1UpgradeAnim: {fileID: 9100000, guid: cf2d1de18560846468ddc287251fa545, type: 2}
+  bombPrefab: {fileID: 8688019189032891478, guid: 83477992d2f61854aaa2c06dc425fa72, type: 3}

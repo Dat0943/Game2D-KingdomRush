@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53ae936b8f5c8954aa891b89cb4669ce, type: 3}
+  m_Name: Lv3 Mage Tower Stats
+  m_EditorClassIdentifier: 
+  nameTower: WIZARD TOWER
+  level: 3
+  buildCost: 240
+  upgradeBuildCost: 300
+  minPhysicalDamage: 0
+  maxPhysicalDamage: 0
+  minMagicalDamage: 40
+  maxMagicalDamage: 74
+  attackSpeed: 1.5
+  descriptionAttackSpeed: SLOW
+  rangeOfLength: 5.5
+  rangeOfHeight: 4.5
+  descriptionRange: LONG
+  isPhysical: 0
+  mageTowerUpgradeSprite: {fileID: 2132678386, guid: 2566bdc87d863b34f9eea17e193ed4b3, type: 3}
+  mageTowerUpgradeAnim: {fileID: 9100000, guid: 9578188576fb9434d88a926d80e8a86a, type: 2}

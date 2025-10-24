@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53ae936b8f5c8954aa891b89cb4669ce, type: 3}
+  m_Name: Lv2 Mage Tower Stats
+  m_EditorClassIdentifier: 
+  nameTower: ADEPT TOWER
+  level: 2
+  buildCost: 160
+  upgradeBuildCost: 240
+  minPhysicalDamage: 0
+  maxPhysicalDamage: 0
+  minMagicalDamage: 23
+  maxMagicalDamage: 43
+  attackSpeed: 1.5
+  descriptionAttackSpeed: SLOW
+  rangeOfLength: 5.5
+  rangeOfHeight: 4.5
+  descriptionRange: SHORT
+  isPhysical: 0
+  mageTowerUpgradeSprite: {fileID: 1071835542, guid: 2566bdc87d863b34f9eea17e193ed4b3, type: 3}
+  mageTowerUpgradeAnim: {fileID: 9100000, guid: e893d3e4395ab9b4eb0465ac99edc271, type: 2}

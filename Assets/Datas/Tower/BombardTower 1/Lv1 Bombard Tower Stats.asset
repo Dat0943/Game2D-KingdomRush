@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25e2fc5cc9a52f640b84ce50edd94a94, type: 3}
+  m_Name: Lv1 Bombard Tower Stats
+  m_EditorClassIdentifier: 
+  nameTower: DWARVEN BOMBARD
+  level: 1
+  buildCost: 125
+  upgradeBuildCost: 220
+  minPhysicalDamage: 8
+  maxPhysicalDamage: 15
+  minMagicalDamage: 0
+  maxMagicalDamage: 0
+  attackSpeed: 3
+  descriptionAttackSpeed: VERY SLOW
+  rangeOfLength: 4.5
+  rangeOfHeight: 4
+  descriptionRange: AVERAGE
+  isPhysical: 1
+  gunMountUpgradeSprite: {fileID: -491597948, guid: 2566bdc87d863b34f9eea17e193ed4b3, type: 3}
+  bomb3UpgradeSprite: {fileID: 1744429913, guid: 2566bdc87d863b34f9eea17e193ed4b3, type: 3}
+  gunner1UpgradeAnim: {fileID: 9100000, guid: 4de81b3026646254290bdc767dc51eda, type: 2}
+  bombPrefab: {fileID: 8688019189032891478, guid: 8630546017ba7b148945cc012e967df3, type: 3}
