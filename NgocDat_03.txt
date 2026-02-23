@@ -1,0 +1,297 @@
+- Nhánh NgocDat03
+	+ Script PuzzleManager
+		Xóa:
+		int currentCoin;	
+		public int CurrentCoin
+
+		Start(){...}
+
+		Sửa:
+		SettingManager.Ins.CurrentCash += 200;
+		GuiManager.Ins.UpdateCoinText(SettingManager.Ins.CurrentCash);
+
+		SettingManager.Ins.CurrentCash += 100;
+		GuiManager.Ins.UpdateCoinText(SettingManager.Ins.CurrentCash);
+
+		SettingManager.Ins.CurrentCash += 150;
+		GuiManager.Ins.UpdateCoinText(SettingManager.Ins.CurrentCash);
+
+		if (SettingManager.Ins.CurrentCash < hintPrice) return;
+		SettingManager.Ins.CurrentCash -= hintPrice;
+		JsonHandle.SetGold(SettingManager.Ins.CurrentCash);
+
+		if (SettingManager.Ins.CurrentCash < revealPrice) return;
+		SettingManager.Ins.CurrentCash -= revealPrice;
+		JsonHandle.SetGold(SettingManager.Ins.CurrentCash);
+			
+		Thêm:
+		GuiManager.Ins.touchZone.GetComponent<Image>().raycastTarget = true;		
+
+	+ Script ShopDialog
+		Sửa:
+		if (SettingManager.Ins.CurrentCash >= data.price)
+    			BuyChair(index);
+		
+		SettingManager.Ins.CurrentCash -= shopLst[index].price;
+			GuiManager.Ins.UpdateCoinText(SettingManager.Ins.CurrentCash);
+
+	+ Script Chair
+		Xóa: 
+		OnCollisionEnter()
+
+		Sửa:
+		public void PlayerSitDown(PlayerMovement playerMov)
+		{
+    			if (!GameManager.Ins.player.canSit || GameManager.Ins.player.isSitting) return;
+
+    			if (isSitted) return;
+
+    			if (reservedBot != null && !reservedBot.isSitting)
+    			{
+        			reservedBot.GoBackOriginalPos();
+        			reservedBot = null;
+    			}
+
+    			SitOnChair(playerMov, chairtype == Chairtype.LeftChair ? 180f : 0f);
+    			isSitted = true;
+    			myTable.ActiveJoinButton(false);
+    			GameManager.Ins.OnPlayerJoinTable(myTable, this);
+    			GameManager.Ins.CheckStartWhenBothSitted();
+		}
+
+	+ Script Table
+		Thêm:
+		[HideInInspector] public Button joinButton;
+
+		[HideInInspector] public Chair currentTargetChair;
+		[HideInInspector] public PlayerMovement playerMov;
+
+		void Awake()
+		{
+    			joinButton = GetComponentInChildren<Button>();
+    			joinButton.onClick.AddListener(OnJoinButtonClick);   
+		}
+
+		void Start()
+		{
+    			ActiveJoinButton(false);
+    			...
+		}
+		
+		void LateUpdate()
+		{
+			...
+    			if (joinButton != null)
+        			joinButton.gameObject.transform.rotation = Camera.main.transform.rotation;
+		}
+
+		public void OnJoinButtonClick()
+		{
+    			SoundManager.Ins.PlaySFXClick();
+    			GuiManager.Ins.ShowLeaveButton(true);
+    			currentTargetChair.PlayerSitDown(playerMov);
+		}
+
+		public void ActiveJoinButton(bool isShow)
+		{
+    			joinButton.gameObject.SetActive(isShow);
+		}
+
+		public void SetTransformJoinButton(Vector3 pos)
+		{
+    			joinButton.gameObject.transform.localPosition = pos;
+		}
+
+	+ Script Bot
+		+ Thêm:
+		void SitDown()
+		{
+			if(!isSitting)
+			...
+			if(chair != null)
+				chair.isSitted = true; (Cũ)
+				if(chair.myTable.currentTargetChair != null)
+    					if (chair.chairtype == chair.myTable.currentTargetChair.chairtype)
+        					chair.myTable.ActiveJoinButton(false);
+			...
+		}
+
+	+ Script PlayerManager
+		+ Thêm
+		[SerializeField] private float detectionRange = 1f;
+		[SerializeField] private float offset;
+		[SerializeField] private Transform cameraTransform;
+		Chair currentTargetChair;
+		Table currentTargetTable;
+
+		void Update()
+		{
+    			...
+    			CheckForTable();
+		}
+
+void CheckForTable()
+{
+    if (!playerMovement.canSit) return;
+
+    RaycastHit hit;
+    if (Physics.Raycast(cameraTransform.position - new Vector3(0f, offset, 0f), cameraTransform.forward, out hit, detectionRange, LayerConsts.OBSTACLE_LAYER))
+    {
+        Chair chair = hit.collider.GetComponentInParent<Chair>();
+
+        if (chair != null)
+        {
+            if (currentTargetChair != chair)
+            {
+                currentTargetChair = chair;
+                currentTargetTable = chair.myTable;
+                currentTargetTable.currentTargetChair = currentTargetChair;
+                currentTargetTable.playerMov = playerMovement;
+                SetInteractionState(true);
+            }
+            return;
+        }
+    }
+    
+    if (currentTargetChair != null || currentTargetTable != null)
+    {
+        SetInteractionState(false);
+        currentTargetTable.currentTargetChair = null;
+        currentTargetTable.playerMov = null;
+        currentTargetChair = null;
+        currentTargetTable = null;
+    }
+}
+
+void SetInteractionState(bool isLookingAtTable)
+{
+    if (currentTargetTable == null) return;
+    if (currentTargetChair.isSitted) return;
+
+    if (currentTargetTable.joinButton != null)
+        currentTargetTable.ActiveJoinButton(isLookingAtTable);
+
+    if (GuiManager.Ins.touchZone != null)
+        GuiManager.Ins.touchZone.GetComponent<Image>().raycastTarget = !isLookingAtTable;
+
+    if(isLookingAtTable)
+    {
+        if (currentTargetChair.chairtype == Chairtype.RightChair)
+            currentTargetTable.SetTransformJoinButton(new Vector3(0f, 25f, -120f));
+        else
+            currentTargetTable.SetTransformJoinButton(new Vector3(0f, 25f, 120f));
+    }
+}
+
+//void OnDrawGizmos()
+//{
+//    if (cameraTransform == null) return;
+//    Gizmos.color = Color.yellow;
+//    Gizmos.DrawLine(cameraTransform.position - new Vector3(0f, offset, 0f), cameraTransform.position + cameraTransform.forward * detectionRange);
+//}
+
+	+ Script Constants
+		+ Thêm:
+public static class LayerConsts
+{
+    ...
+    public static int DEFAULT_LAYER = LayerMask.GetMask("Default");
+}
+
+	+ Script CameraController
+		+ Sửa:
+		[HideInInspector] public Transform cameraTransform;
+	
+	+ Script GuiManager
+		+ Thêm:
+[Header("Mobile Input")]
+...
+[SerializeField] private GameObject leaveButton;
+
+public void ShowLeaveButton(bool isShow)
+{
+    if (leaveButton != null)
+        leaveButton.SetActive(isShow);
+}
+
+	+ Script GameManager
+		+ Thêm:
+public void CheckStartWhenBothSitted()
+{
+    ...
+
+    ...
+
+    if (currentTable.IsTableFull())
+    {
+        ...
+        ...
+        GuiManager.Ins.ShowLeaveButton(false);
+        ...
+    }
+}
+
+#region OnCLick
+public void OnClickJumpButton()
+{
+    if (player.isSitting) return;
+
+    player.playerManager.OnJumpButtonPressed();
+}
+
+public void OnClickLeaveButton()
+{
+    player.playerManager.OnJumpButtonPressed();
+    GuiManager.Ins.touchZone.GetComponent<Image>().raycastTarget = true;
+    GuiManager.Ins.ShowLeaveButton(false);
+}
+
+	+ Script SoundManager
+		+ Xóa:
+		... AudioClip backgroundSound;
+
+		+ Thêm:
+void Start()
+{
+    JsonHandle.Load();
+    SettingManager.Ins.ApplyAllSettings();
+}
+
+	+ Script PlayerMovement
+		+ Thêm:
+// Gắn vào Anim Run
+public void TriggerFootstep()
+{
+    if (isGrounded && isMoving)
+    {
+        SoundManager.Ins.PlaySFXFootStep();
+    }
+}
+
+		+ Tạo Event ở Anim Parkour_Run gán vào frame thứ 5 và 20
+		+ Tạo 1 bản sao của Anim Parkour_Run đặt tên là Parkour_Bot Run và xóa event ở anim này đi rồi gán lại vào Animator movement
+
+	+ Prefab gameobject Player
+		+ Tạo GameObject rỗng RaycastJoinTable có tọa độ Vector3(0f, 0.5f, 0f); có cũng cấp độ với StepRayLower
+		+ GameObject này sẽ được gán vào biến [SerializeField] private Transform cameraTransform;
+
+	+ Scene MemoryMatch
+		+ Add Button JoinButton vào Canvas của tất cả các Table
+			+ Pos: 0f, 90f, 0f
+			+ Width: 100f, height: 60f
+			+ Preserve Aspect: true
+		+ Add Button LeaveButton vào Canvas đầu
+			+ Pos: 0f, -258f, 0f
+			+ Width: 409f, height: 107f
+			+ Preserve Aspect: true
+			+ Event: SoundManager.PlaySFX(), GameManager.OnClickLeaveButton()
+			+ Animator
+		+ GameObject SoundManager
+			+ Gán 2 Output: Music và SFX
+			+ ở Background Music thì
+				Volumn = 0.2f
+				Play On Awake: True
+				Loop: True
+
+
+		 
