@@ -1,0 +1,103 @@
+- Nhánh Main
+	+ AudioMixerMenu: Đổi tên 2 giá trị MyExposedParam lần lượt là MusicVol và SFXVol
+	
+	+ Script SettingManager
+		Thêm:
+[Header("Sound")]
+public AudioClip clickSound;
+public AudioSource sfxAudioSource;
+
+        public void TriggerVibrate()
+        {
+            if (JsonHandle.data.isVibrateOn)
+            {
+#if UNITY_ANDROID || UNITY_IOS
+                Handheld.Vibrate();
+#endif
+            }
+        }
+
+public void PlaySFXClick()
+{
+    if (sfxAudioSource != null)
+        sfxAudioSource.PlayOneShot(clickSound);
+}
+
+	+ Script MenuManager
+		Xóa:
+[]... AudioClip clickSound;
+[]... AudioSource sfxAudioSource;
+
+		Sửa:
+public void PlaySFXClick()
+{
+    if (SettingManager.Ins.sfxAudioSource != null)
+        SettingManager.Ins.sfxAudioSource.PlayOneShot(SettingManager.Ins.clickSound);
+}
+
+	+ Script SkinItemUI
+		Thêm:
+public void OnClickItem()
+{
+    SettingManager.Ins.PlaySFXClick();
+    ...
+}
+
+	+ Script GameUI
+		Thêm:
+public void OnJoinGame(string sceneToLoad)
+{
+    if (sceneToLoad != null)
+    {
+        SettingManager.Ins.PlaySFXClick();
+        ...
+    }
+}
+
+	+ Script SpinWheelDialog
+		Thêm:
+public void StartSpin()
+{
+    if (isSpinning) return;
+
+    SettingManager.Ins.PlaySFXClick();
+    ...
+}
+
+public void OnCloseClick()
+{
+    SettingManager.Ins.PlaySFXClick();
+    ...
+}
+
+	+ Script SkinDialog
+		Thêm:
+public void OnClickAction()
+{
+    SettingManager.Ins.PlaySFXClick();
+    ...
+}
+
+public void CloseSkinPanel()
+{
+    SettingManager.Ins.PlaySFXClick();
+    ...
+}
+
+	+ Script SettingDialog
+		Thêm:
+public void OnVibrateSwitchChanged(bool value)
+{
+    ...
+
+    if (value)
+        SettingManager.Ins.TriggerVibrate();
+}
+
+	+ Scene MenuScene
+		Sửa:
+			Ở GameObject SettingManager thêm component AudioSource output SFX
+			Ở GameObject SettingManager thêm component AudioSource output Music PlayOnAwake = true, Loop = true
+			Ở GameObject SettingButton thêm Event SettingManager.PlaySFX()
+			Ở GameObject CashButton thêm Event SettingManager.PlaySFX()
+			Ở GameObject SystemPanel các Button con thêm Event MenuManager.PlaySFX()
